@@ -211,16 +211,16 @@ class CappuccinoMachine extends CoffeeMachine {
 }
 
 
-console.info('Валидный тест')
-const cappuccinoMachine = new CappuccinoMachine(230);
-console.info('След. логи должны быть зеленые');
-cappuccinoMachine.turnOn();
-cappuccinoMachine.addWater(1000);
-cappuccinoMachine.addCoffee(11);
-cappuccinoMachine.addMilk(1000);
-cappuccinoMachine.brewCappuccino();
-cappuccinoMachine.turnOff();
-console.info('Валидный тест закончен',`\n`);
+// console.info('Валидный тест')
+// const cappuccinoMachine = new CappuccinoMachine(230);
+// console.info('След. логи должны быть зеленые');
+// cappuccinoMachine.turnOn();
+// cappuccinoMachine.addWater(1000);
+// cappuccinoMachine.addCoffee(11);
+// cappuccinoMachine.addMilk(1000);
+// cappuccinoMachine.brewCappuccino();
+// cappuccinoMachine.turnOff();
+// console.info('Валидный тест закончен',`\n`);
 //
 // console.info('Неправильное питание')
 // const cappuccinoMachineBadPower = new CappuccinoMachine(220);
