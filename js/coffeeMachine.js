@@ -211,7 +211,7 @@ class CappuccinoMachine extends CoffeeMachine {
 }
 
 
-// console.info('Валидный тест')
+// console.info('Валидный тест!')
 // const cappuccinoMachine = new CappuccinoMachine(230);
 // console.info('След. логи должны быть зеленые');
 // cappuccinoMachine.turnOn();
