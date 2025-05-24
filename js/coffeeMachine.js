@@ -114,7 +114,6 @@ class CoffeeMachine {
   }
 }
 
-
 // //Всё хорошо!!!
 // const coffeeMachine = new CoffeeMachine(230);
 // console.info('След. логи должны быть зеленые');
@@ -124,7 +123,6 @@ class CoffeeMachine {
 // coffeeMachine.brewEspresso();
 // coffeeMachine.turnOff();
 // console.info('Валидный тест закончен',`\n`);
-
 
 // //Неправильное питание
 // const coffeeMachineBadPower = new CoffeeMachine(220);
@@ -136,7 +134,6 @@ class CoffeeMachine {
 // coffeeMachineBadPower.turnOff();
 // coffeeMachineBadPower.brewEspresso();
 // console.info('Тест питания закончен',`\n`);
-
 
 // //Все тесты на проверку воды
 // const coffeeMachineCheckWater = new CoffeeMachine(230);
@@ -211,7 +208,7 @@ class CappuccinoMachine extends CoffeeMachine {
 }
 
 
-// console.info('Валидный тест!')
+// console.info('Валидный тест')
 // const cappuccinoMachine = new CappuccinoMachine(230);
 // console.info('След. логи должны быть зеленые');
 // cappuccinoMachine.turnOn();
@@ -221,7 +218,7 @@ class CappuccinoMachine extends CoffeeMachine {
 // cappuccinoMachine.brewCappuccino();
 // cappuccinoMachine.turnOff();
 // console.info('Валидный тест закончен',`\n`);
-//
+
 // console.info('Неправильное питание')
 // const cappuccinoMachineBadPower = new CappuccinoMachine(220);
 // console.info('След. логи должны быть зеленые');
@@ -233,7 +230,7 @@ class CappuccinoMachine extends CoffeeMachine {
 // cappuccinoMachineBadPower.turnOff();
 // cappuccinoMachineBadPower.brewCappuccino();
 // console.info('Тест питания закончен',`\n`);
-//
+
 // console.info('Все тесты на проверку заполнения воды')
 // const cappuccinoMachineCheckWater = new CappuccinoMachine(230);
 // console.info('След. лог красный на большое кол-во воды');
@@ -245,7 +242,7 @@ class CappuccinoMachine extends CoffeeMachine {
 // console.info('След. лог красный на некорректный ввод');
 // cappuccinoMachineCheckWater.addWater('a');
 // console.info('Тест воды закончен',`\n`);
-//
+
 // console.info('Все тесты на проверку заполнения кофе')
 // const cappuccinoMachineCheckCoffee = new CappuccinoMachine(230);
 // console.info('След. лог красный на большое кол-во кофе');
@@ -257,7 +254,7 @@ class CappuccinoMachine extends CoffeeMachine {
 // console.info('След. лог красный на некорректный ввод');
 // cappuccinoMachineCheckCoffee.addCoffee('a');
 // console.info('Тест кофе закончен',`\n`);
-//
+
 // console.info('Все тесты на проверку заполнения молока');
 // const cappuccinoMachineCheckMilk = new CappuccinoMachine(230);
 // console.info('След. лог красный на большое кол-во молока');
@@ -269,7 +266,7 @@ class CappuccinoMachine extends CoffeeMachine {
 // console.info('След. лог красный на некорректный ввод');
 // cappuccinoMachineCheckMilk.addMilk('a');
 // console.info('Тест молока закончен',`\n`);
-//
+
 // console.info('Приготовление кофе без питания')
 // const brewCappuccinoNoPower = new CappuccinoMachine();
 // console.info('След. лог зеленый на добавление кофе, молока и воды');
@@ -279,7 +276,7 @@ class CappuccinoMachine extends CoffeeMachine {
 // console.info('След. лог красный на приготовление');
 // brewCappuccinoNoPower.brewCappuccino();
 // console.info('Тест на варку без воды закончен',`\n`);
-//
+
 // console.info('Приготовление кофе без воды')
 // const brewCappuccinoNoWater = new CappuccinoMachine();
 // console.info('След. логи зеленые на добавление кофе, молока и включение питания');
@@ -289,7 +286,7 @@ class CappuccinoMachine extends CoffeeMachine {
 // console.info('След. лог красный на приготовление');
 // brewCappuccinoNoWater.brewCappuccino();
 // console.info('Тест на варку без воды закончен',`\n`);
-//
+
 // console.info('Приготовление кофе без кофе')
 // const brewCappuccinoNoCoffee = new CappuccinoMachine();
 // console.info('След. логи зеленые на добавление воды, молока и включение питания');
@@ -299,7 +296,7 @@ class CappuccinoMachine extends CoffeeMachine {
 // console.info('След. лог красный на приготовление');
 // brewCappuccinoNoCoffee.brewCappuccino();
 // console.info('Тест на варку без кофе закончен',`\n`);
-//
+
 // console.info('Приготовление кофе без пены')
 // const brewCappuccinoNoFoam = new CappuccinoMachine();
 // console.info('След. логи зеленые на добавление воды, кофе, включение питания и варку эспрессо');
@@ -310,7 +307,7 @@ class CappuccinoMachine extends CoffeeMachine {
 // console.info('След. логи красные на приготовление пены');
 // brewCappuccinoNoFoam.whipMilk();
 // console.info('Тест на варку без пены закончен',`\n`);
-//
+
 // console.info('Приготовление кофе без молока')
 // const brewCappuccinoNoMilk = new CappuccinoMachine();
 // console.info('След. логи зеленые на добавление воды, кофе, включение питания и варку эспрессо');
